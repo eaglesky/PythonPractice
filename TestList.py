@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.7
 import sys
 
 if __name__ == '__main__':
@@ -13,8 +13,8 @@ if __name__ == '__main__':
         print(word)
 
     # len() is used to get the number of items in a sequence (string, tuple or list) or a
-    # mapping (dictionary)
-    # range(..) returns a iterator!
+    # map (dictionary)
+    # range(..) returns a iterable object.
     for id in range(len(test_list)):
         print('{}: {}'.format(id, test_list[id]))
 
